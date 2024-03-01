@@ -1,0 +1,32 @@
+<div  class="body">
+
+
+    <table class="my-table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Fname</th>
+          <th>Lname</th>
+          <th>Activity</th>
+        </tr>
+      </thead>
+      <tbody  *ngFor="let user of userArray">
+        <tr>
+          <td>{{user.name}}</td>
+          <td>{{user.lastName}}</td>
+          <td>{{user.age}}</td>
+           <td><button
+
+            (click)="buttonClikedFromAllUser(user)">Show Details</button></td>
+        </tr>
+
+        <!-- Add more rows as needed -->
+      </tbody>
+    </table>
+
+
+
+
+
+
+</div>

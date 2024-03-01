@@ -1,0 +1,18 @@
+.container{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #9290C3;
+
+
+}
+
+.div1{
+
+flex-basis: 40%;
+}
+
+.div2{
+
+flex-basis: 50%;
+}

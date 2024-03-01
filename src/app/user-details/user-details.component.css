@@ -1,0 +1,10 @@
+.DETAILS{
+width: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 400px;
+padding: 20px;
+background-color:#535C91;
+color: #fff;
+}
